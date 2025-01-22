@@ -17,7 +17,6 @@ instructions_path = os.path.join(os.path.dirname(__file__), "system_instructions
 reply_path = os.path.join(os.path.dirname(__file__), "reply.txt")
 user_input_path = os.path.join(os.path.dirname(__file__), 'user_input.txt')
 input_format = "@"
-#OPENAPI_KEY = "sk-proj-ZRl3kDP9AIYFR5Isk9WbT3BlbkFJveFLRRJlCCVR9a1CdLqA"
 
 
 def read_file(file):
