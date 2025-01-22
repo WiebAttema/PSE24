@@ -1,0 +1,24 @@
+.gradesContainer {
+    display: flex;
+}
+
+.gradesContent{
+    flex-grow: 1;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-bar{
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background: transparent;
+}

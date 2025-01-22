@@ -1,0 +1,47 @@
+.profile{
+    flex:1;
+    background-color:#eff3ff;
+    height:100vh;
+    padding: 30px;
+    max-width: 340px;
+}
+.profile--header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile--header img{
+    background: white;
+    border-radius: 200px;
+    width: 55px;
+    height: 55px;
+}
+.profile-pic-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.profile-pic-name h2{
+    margin-left: 20px;
+    white-space: nowrap;
+    color:#39435B !important;
+    font-size:1.2em;
+}
+
+.edit{
+    background-color: #eff3ff;
+    padding:12px;
+    border-radius:10px;
+    color:#969393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit .icon{
+    font-size: 25px !important;
+    transition: 0.5s ease-in-out;
+
+}

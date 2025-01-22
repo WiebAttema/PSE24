@@ -1,0 +1,135 @@
+.ca_profile{
+    flex:1;
+    background-color:#eff3ff;
+    height: calc(100vh - 60px);
+    max-width: 340px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    /* padding: 30px; */
+    
+    
+}
+.ca_profile--header{
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.ca_edit{
+    background-color: #eff3ff;
+    padding:12px;
+    border-radius:10px;
+    color:#969393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ca_edit .ca_icon{
+    font-size: 25px !important;
+    transition: 0.5s ease-in-out;
+
+}
+.ca_icons{
+    font-size: 25px !important;
+}
+
+.ca_user--profile{
+    height: 85%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.ca_user--detail{
+    width:100%;
+    height:250px;
+
+}
+.ca_user--detail{
+    width: 100%;
+    height: 250px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ca_user-courses{
+    flex:1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.ca_course-detail{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+h5{
+    font-size: 14px;
+    color:#39435B;
+}
+
+
+.ca_course .ca_action{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.ca_profession{
+    color:#969393;
+}
+.ca_profile--header img{
+    background: white;
+    border-radius: 50%;
+    width: 55px;
+    margin-left:15%;
+}
+.ca_profile-pic-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ca_profile-pic-name h2{
+    margin-left:10%;
+    white-space: nowrap;
+    color:#39435B !important;
+    font-size:1.2em;
+}
+.ca_title{
+    /* font-size:2em;
+    color: #39435B !important;
+    font-weight:600; */
+    font-size: 22px;
+    color: #3E59B8;
+    font-weight: 600;
+}
+
+h6{
+    font-size: 14px;
+    color:#000000;
+}
+
+.ca_past_assignment{
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 8px;
+    
+}
+.ca_assignment{
+    font-size: 1em;
+    color: #39435B;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ca_title_container {
+    margin-top: 20px;
+}

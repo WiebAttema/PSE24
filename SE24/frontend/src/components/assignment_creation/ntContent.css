@@ -1,0 +1,122 @@
+.content{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.ntcontent--header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the start of the column */
+    width:100%;
+    height:10vh;
+    gap: 10px;
+    margin-top: 2vh;
+}
+.ntheader--title{
+    color: #3E59B8;
+    margin-left:5%;
+    font-size: 2em;
+    font-weight: 600;
+}
+.ntheader--acttivity{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+
+.ntheader_board{
+    font-size: 0.9em;
+    margin-left: 5%;
+    color:#3E59B8;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+}
+.arrow{
+  font-size: 1.2em;
+  color:#3E59B8;
+}
+.question_param_box{
+    margin-top:8%;
+    display: grid;
+    gap:20px;
+    width:100%; /* Padding inside the elements */
+    color:#39435B;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.content_box2_nt {
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    width: 70%;
+    
+    margin-left: 5%;
+    margin-top: 5%;
+    height: calc(100vh - 240px);
+  }
+.test_q{
+    width: 100%;
+    background-color: #F7F7F7;
+    height:13%;
+    border-radius: 10px;
+}
+.question{
+    font-size: 1em;
+    margin-top: 2%;
+    color: #2D2D2D;
+    display: flex; /* Gebruik Flexbox */
+    align-items: center; /* Centreer items verticaal */
+}
+.qtype{
+    margin-top: 18px;
+    margin-left: 5%;
+    font-size: 0.75em;
+    color:#757575;
+}
+.question h2 {
+    font-size: 1.13em;
+    margin-left: 5%;
+}
+
+.newq{
+    width: 50%;
+    background-color: #F1F4FC;
+    height:10%;
+    border-radius: 10px;
+    color: #1D6DE4;
+    display: flex;
+    justify-content: center; /* Center de inhoud horizontaal */
+    align-items: center; /* Center de inhoud verticaal */
+    font-size: 1.1em;
+    gap:10px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: none;
+}
+.newq:hover{
+    background-color: #d3defd;
+}
+
+
+.publiceer-button {
+    background-color: #1D6DE4; /* Blauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    width:13%;
+    height: 6%;
+    font-size: 16px; /* Tekstgrootte */
+    border: none; /* Geen rand */
+    border-radius: 5px; /* Afgeronde hoeken */
+    cursor: pointer; /* Verander de cursor naar een handje bij hover */
+    /* margin-left: 75%; */
+    /* margin-top: -8%; */
+    /* margin-right: 100px; */
+}
+
+.publiceer-button:hover {
+    background-color: #0452c7; /* Donkerblauwe achtergrondkleur bij hover */
+}
+.arrow:hover{
+    color:rgb(0, 0, 99);
+}

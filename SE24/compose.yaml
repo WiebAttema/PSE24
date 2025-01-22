@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8082:80"
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8083:8083"
+    volumes:
+      - instance_data:/app/instance
+
+volumes:
+  instance_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: ${PWD}/instance
+      o: bind

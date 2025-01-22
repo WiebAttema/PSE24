@@ -1,0 +1,61 @@
+.profile-container {
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+.profile-header {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color:#3E59B8;
+}
+
+.profile-picture2 {
+    margin-top: 20px;
+    width: 150px; /* Pas de grootte aan naar wens */
+    height: 150px;
+    border-radius: 50%; /* Maakt de foto rond */
+    object-fit: cover;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    color:#909090DB ;
+    font-weight: 400;
+    font-size: 0.8em;
+  }
+  .Form{
+    display: grid;
+    width: 50%;
+    margin-left: 40%;
+    margin-top: -15%;
+    grid-template-columns: repeat(2, 1fr); /* Twee kolommen met gelijke breedte */
+    grid-gap: 20px; /* Ruimte tussen de grid-items */
+  }
+  .form-control {
+    height: 25px;
+    border: 1px solid #e4e4e4; /* Set the border color to light gray */
+    box-shadow: none; /* Remove any default box shadow */
+    border-radius: 5px;
+}
+
+
+.form-control::placeholder {
+    color: #000000; /* Placeholder text color to match border color */
+}
+.save-button {
+    background-color: #1D6DE4; /* Blauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    padding: 15px 30px; /* Binnenste vulling */
+    border: none; /* Geen rand */
+    border-radius: 5px; /* Afronding van de hoeken */
+    font-size: 16px; /* Lettergrootte */
+    width:75%;
+    cursor: pointer; /* Muisaanwijzer veranderen naar pointer bij hover */
+    /* margin-top: 45%;
+    margin-left:65% */
+  }
+  
+  .save-button:hover {
+    background-color: rgb(35, 70, 146); /* Donkerder blauw bij hover */
+  }
+  

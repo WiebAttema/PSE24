@@ -1,0 +1,29 @@
+.grade-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.grade-header {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color:#3E59B8;
+}
+
+.search-bar {
+    width: 65%;
+    padding: 10px;
+    font-size: 1em;
+    background: #F4F6F8;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-left: 5%;
+}
+
+.search-bar:focus {
+    border-color: #007bff;
+}

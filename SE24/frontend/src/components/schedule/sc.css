@@ -1,0 +1,189 @@
+/* Schedule.css */
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.schedule-header {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 65%;
+    padding: 10px;
+    font-size: 1em;
+    background: #F4F6F8;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-bar:focus {
+    border-color: #007bff;
+}
+
+.schedule-header {
+    color: #3E59B8;
+}
+
+.sc_user-courses {
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.sc_grade-icon {
+    font-size: 1.3em;
+    color: #39435B !important;
+    margin-top: 1px;
+}
+
+.sc_grade-icon2 {
+    font-size: 1.3em;
+    color: #39435B !important;
+    margin-top: 1px;
+}
+
+.sc_grade-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sc_courses {
+    background: #F7F7F7;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sc_course-detail {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-top: -1%;
+}
+
+.sc_course-cover_u {
+    background: #FF7F50;
+    width: 10px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
+    font-size: 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    /* padding: 10px; */
+}
+
+.sc_course-cover_p {
+    background: #6B87DC;
+    width: 10px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
+    font-size: 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    /* padding: 10px; */
+}
+
+.sc_grade_title {
+    font-size: 1.4em;
+    color: #2D2D2D !important;
+    font-weight: 600;
+    font-family: arial;
+}
+
+.sc_title {
+    color: black;
+    font-size: 0.9em;
+    margin-top: 0%;
+    text-decoration: none;
+}
+
+.sc_time {
+    font-size: 12px;
+    color: #1E6DE4;
+    text-decoration: none;
+}
+
+.sc_dots {
+    font-size: 1.3em;
+    margin-right: 3%;
+    color: #6D6D6D;
+}
+
+.sch_courses-container {
+  margin-top: 30px;
+}
+
+.sch_courses-header {
+  /* color: #3E59B8;
+  font-size: 2.5em; */
+  font-size: 24px;
+  color: #3E59B8;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.sch_course-list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sch_course-item {
+    color: #1E6DE4;
+    padding: 5px 10px;
+    margin: 5px 0;
+    /* Add margin for spacing */
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-bar{
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+
+.schedule-container .trcontent--header .trheader--title{
+  font-size: 2em;
+  color: #3e59b8;
+  margin-left: 0px;
+}
+
+.schedule-container .trcontent--header .trheader_board {
+  margin-left: 0px;
+}
+
+.content .schedule-container .search-bar {
+  margin-left: 0px;
+}

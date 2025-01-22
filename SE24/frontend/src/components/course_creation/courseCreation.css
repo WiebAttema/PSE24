@@ -1,0 +1,162 @@
+.cc-page-container {
+    display: flex;
+}
+
+.cc-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.cc-title {
+    color: #3E59B8;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.cc-content-container {
+    display: flex;
+    flex-direction: column;
+    /* height: 85%; */
+    height: calc(100vh - 140px);
+}
+
+.form-control {
+    font-size: 1em;
+    background: #F4F6F8;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px;
+}
+
+.content_box2 {
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height:75%;
+}
+
+.test_q {
+    cursor: pointer;
+    width: 100%;
+    background-color: #F7F7F7;
+    height:13%;
+    border-radius: 10px;
+}
+
+.assignment{
+    font-size: 0.7em;
+    margin-top: 2%;
+    color: #2D2D2D;
+    display: flex;
+    align-items: center;
+}
+.assignment-link{
+    text-decoration: none !important;
+}
+
+.newq{
+    width: 50%;
+    background-color: #F1F4FC;
+    height:10%;
+    border-radius: 10px;
+    color: #1D6DE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    gap:10px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: none;
+    padding: 25px 25px;
+}
+.newq:hover{
+    background-color: #d3defd;
+}
+
+.cc-footer-container {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.publiceer-button {
+    background-color: #1D6DE4;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.publiceer-button:hover {
+    background-color: #0452c7;
+}
+
+.assignment-input{
+    border: none;
+    margin: 10px;
+  }
+  .delete-button {
+    background-color: #6e63fd; /* Roodachtige kleur */
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #5b4ffa; /* Donkerder rood bij hover */
+  }
+  
+  .delete-button:focus {
+    outline: none;
+  }
+  
+  .delete-button:active {
+    background-color: #2b1cff; /* Nog donkerder rood bij klikken */
+  }
+  .assignment-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #6e63fd; /* Paarse rand */
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .assignment-input:focus {
+    border-color: #6e63fd;
+    box-shadow: 0 0 8px rgba(110, 99, 253, 0.5); /* Lichtblauwe gloed */
+  }
+  
+  .assignment-input[type="date"] {
+    color: #6e63fd; /* Tekstkleur */
+    background-color: #f0f4ff; /* Lichtblauwe achtergrond */
+  }
+  
+  .assignment-input[type="date"]::-webkit-inner-spin-button,
+  .assignment-input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Inverse kleuren voor betere zichtbaarheid */
+  }
+  
+  .assignment-input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    cursor: pointer;
+  }

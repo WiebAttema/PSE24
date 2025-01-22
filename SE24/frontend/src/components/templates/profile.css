@@ -1,0 +1,226 @@
+.profile{
+    flex:1;
+    background-color:#eff3ff;
+    height:100vh;
+    /* padding: 30px; */
+    max-width: 340px;
+}
+.profile--header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.edit{
+    background-color: #eff3ff;
+    padding:12px;
+    border-radius:10px;
+    color:#969393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit .icon{
+    font-size: 25px !important;
+    transition: 0.5s ease-in-out;
+
+}
+.icons{
+    font-size: 25px !important;
+}
+
+.user--profile{
+    height: 85%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.user--detail{
+    width:100%;
+    height:250px;
+
+}
+.user--detail{
+    width: 100%;
+    height: 250px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.user--detail .username{
+    color: #526d82;
+}
+.user-courses{
+    flex:1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 30px;
+}
+.user-deadlines{
+    flex:1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top:5%;
+}
+
+.courses{
+    background: white;
+    padding:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.course-detail{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.course-cover{
+    background: #6B87DC;
+    width: 12px;
+    height:7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
+    font-size: 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.grade{
+    margin-right:20px;
+    font-size: 18px;
+    color:#39435B;
+}
+h5{
+    font-size: 16px;
+    color:#39435B;
+    font-weight: 500;
+}
+
+.time{
+    font-size: 12px;
+    color:#8E8C8C;
+}
+
+.profession{
+    color:#969393;
+}
+.profile--header img{
+    background: white;
+    border-radius: 200px;
+    width: 55px;
+    height: 55px;
+}
+.profile-pic-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.profile-pic-name h2{
+    margin-left: 20px;
+    white-space: nowrap;
+    color:#39435B !important;
+    font-size:1.2em;
+}
+.grade_title,.deadline_title{
+    /* font-size:1.2em;
+    color: #39435B !important;
+    font-weight:600;
+    font-family: arial; */
+    font-size: 24px;
+    color: #3E59B8;
+    font-weight: 600;
+}
+
+.deadline-container-field {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.deadline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.deadline:hover{
+    background-color: #e2e1e1;
+    border-radius: 2%;
+}
+
+.course-deadline{
+    background: #4CA137;
+    color:#FFFFFF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.deadline-green {
+    background: #78B868;
+}
+
+.deadline-red {
+    background: #D14949;
+}
+
+.deadline-orange {
+    background: #F5B334;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #39435B;
+}
+.grade-icon{
+    font-size: 1.3em;
+    /* color:#39435B !important; */
+    margin-top:1px;
+    color: #3E59B8;
+}
+.grade-icon2{
+    font-size: 1.3em;
+    /* color:#39435B !important; */
+    margin-top:1px;
+    color: #3E59B8;
+}
+.grade-container{
+    display: flex;
+    margin-top: 20px;
+
+}
+.nav-link2 {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: -3px;
+}
+/* .nav-link2:hover {
+background-color: rgb(147, 166, 255);
+} */

@@ -1,0 +1,21 @@
+:root {
+  --gradient-light: #6F8DE2;
+  --gradient-dark: #465DAA;
+  --primary-color: #3E59B8;
+  --font-size-one: 16px;
+  --font-size-two: 18px;
+  --font-size-three: 21px
+}
+
+* {
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+}
+

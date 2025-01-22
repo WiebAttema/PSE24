@@ -1,0 +1,31 @@
+/* Stijlen voor de samenvatting sectie */
+.samenvatting {
+    /* margin-top: 30px; */
+    /* padding: 20px; */
+    border-radius: 5px;
+}
+
+.samenvatting h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #3E59B8;
+    font-weight: 600;
+}
+
+.samenvatting h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3E59B8;
+}
+
+.samenvatting p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #777;
+}
+
+/* Optionele stijlen voor de totaal sectie */
+.samenvatting h3:last-child {
+    margin-top: 30px;
+}

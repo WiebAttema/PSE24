@@ -1,0 +1,204 @@
+.trcontent{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: 100vh;
+}
+.trcontent--header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the start of the column */
+    width:100%;
+    height:10vh;
+    gap: 10px;
+    margin-top: 2vh;
+}
+.trheader--title{
+    color: #3E59B8;
+    margin-left: 30px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.trheader--acttivity{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+
+.trheader_board{
+    font-size: 0.9em;
+    margin-left: 30px;
+    color:#3E59B8;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+}
+.arrow{
+  font-size: 1.2em;
+  color:#3E59B8;
+}
+.question_param_box{
+    margin-top:8%;
+    display: grid;
+    gap:20px;
+    width:100%; /* Padding inside the elements */
+    color:#39435B;
+    font-weight: 600;
+    font-size: 1.4em;
+    
+  }
+
+  
+  .content_box2 {
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    width: calc(100% - 80px);
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+.question_number{
+  color:#3E59B8;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+.question{
+  color:#4F4F4F;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+  
+
+ 
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 60px);
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .nav-button {
+    background-color: white;
+    color: #1D6DE4;;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1.1em;
+    border: 2px solid #1D6DE4; /* Dit zorgt voor de zichtbare rand */
+  }
+  .nav-button:hover {
+    background-color: #1D6DE4; /* Verandert de achtergrondkleur naar blauw bij hover */
+    color: white; /* Verandert de tekstkleur naar wit bij hover */
+  }
+  .navigation-buttons .nav-button:nth-child(2):hover {
+    background-color: white; /* Verandert de achtergrondkleur naar blauw bij hover */
+    color: #1D6DE4; /* Verandert de tekstkleur naar wit bij hover */
+  }
+  .nav-button:first-child {
+    margin-right: auto;
+  }
+  
+  .nav-button:nth-child(2),
+  .nav-button:nth-child(3) {
+    margin-left: 10px;
+  }
+  .nav-button:nth-child(2){
+    background-color: #1D6DE4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1.1em;
+    border: 2px solid #1D6DE4; /* Dit zorgt voor de zichtbare rand */
+
+  }
+  .code-black-box {
+    background-color: black; /* Black background */
+    margin-top: 15px;
+    position: relative;
+    width: 75%;
+    border-radius: 4px; /* Added to match the header's border-radius */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Disables horizontal scrolling */
+    max-height: 300px; /* Maximum height for the code box */
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height:275px;
+  }
+  
+  /* Styling for the scrollbar */
+  .code-black-box::-webkit-scrollbar {
+    width: 8px; /* Breedte van de scrollbar */
+    margin-right: -20px; /* Verplaatsing naar rechts */
+  }
+  
+  .code-black-box::-webkit-scrollbar-track {
+    background: #F1F4FC; /* Background of the scrollbar track */
+    border-radius: 4px; /* Matches border-radius of the box */
+  }
+  
+  .code-black-box::-webkit-scrollbar-thumb {
+    background-color: #818181; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Matches border-radius of the box */
+  }
+  
+  .code-header {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    padding: 5px;
+    width: 100%; /* Matches the code box width */
+    font-size: 12px;
+    border-radius: 4px 4px 0 0;
+    position: sticky;
+    top: 0;
+  }
+  
+  .code-black-box pre {
+    margin: 0;
+    padding: 10px;
+    white-space: pre-wrap; /* Allows the code to wrap within the box */
+  }
+  
+  :not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: black !important;
+  }
+  .line{
+    color: #ebebeb;
+    /* margin-top: -12%; */
+    width: calc(100% - 60px);
+    margin-left: 30px;
+    /* margin-top: calc(100vh - 770px);; */
+  }
+.answer-box{
+  margin-top: 1%;
+  margin-left: 30px;
+}
+.answer-title {
+  margin-bottom: 10px; /* Voegt een onderste marge van 10px toe onder de h4 */
+  color:#3E59B8;
+  font-weight: 500;
+}
+.answer{
+  color:#4F4F4F;
+  font-weight: 500;
+}
+
+/* .trcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+
+.student-answer {
+  background-color: #3E59B8;
+  color: white;
+}

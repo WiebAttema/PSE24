@@ -1,0 +1,285 @@
+.content{
+    width: 40%;
+    flex-grow: 1;
+}
+.content--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 30px;
+}
+.header--title{
+    font-size: 2.5em;
+    /* margin-bottom: 20px; */
+    color:#3E59B8;
+}
+.header--acttivity{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+.search-box{
+    background: #F4F6F8;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+}
+.search-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+    color:#000000;
+}
+.search-box .icon{
+    color:#B7B7B7;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.card--container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Max 3 columns */
+    gap: 30px;
+    align-items: start;
+    max-height: calc(100vh - 220px);
+    overflow-y: auto; /* Adds vertical scrolling */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: thin;  /* Firefox */
+}
+
+.card--container::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    background-color: transparent; /* Background color of the scrollbar track */
+}
+.card--container::-webkit-scrollbar {
+    height: 20vh !important; /* Height of the scrollbar */
+}
+
+.card--container::-webkit-scrollbar-thumb {
+    background-color: #E2E6F3; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+    flex: 1;
+    border-radius: 14px;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Voeg een subtiele schaduw toe */
+    background-color: white;
+    overflow: hidden; /* Ensure no overflow */
+}
+/* Card.css */
+
+.card img {
+    width: 100%;
+    height: 160px; /* Stel de gewenste hoogte in */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding wordt bijgesneden om de container te vullen */
+    border-radius: 0px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  
+.card:hover{
+    transform: scale(1.04);
+    cursor:pointer;
+}
+.card--cover{
+background: white;
+font-size: 3rem;
+display:flex;
+align-items:center;
+justify-content: center;
+padding: 20px;
+border-radius: 20px;
+color:#969393;
+height:auto;
+}
+
+.card--title{
+    /* width: 100%; */
+    text-align:start;
+
+    padding: 10px 14px;
+
+    font-weight: 100;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    background-color: white;
+}
+.card--title h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #39435B ;
+
+}
+.divider {
+    border: none;
+    border-top: 1px solid rgb(189, 160, 160);
+    margin: 10px 0;
+    margin-left:5%;
+  }
+
+  .assignment-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+  }
+  
+  .assignment-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .assignment-card h3 {
+    margin: 0 0 8px 0;
+  }
+  
+  .assignment-card p {
+    margin: 4px 0;
+  }
+
+  
+  .course-detail h1 {
+    font-size: 2rem;
+  }
+  
+  .course-detail p {
+    font-size: 1.2rem;
+  }
+  
+  .course-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .assignment-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+.da_scroll-bar{
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.da_scroll-bar::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.da_scroll-bar::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.card-colored {
+  height: 200px;
+}
+
+.content--header .trheader--title {
+  color: rgb(62, 89, 184);
+  font-size: 2em;
+  font-weight: 600;
+  margin-left: 0px;
+}
+
+.teacher-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.da_assignment-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.da_course-button{
+  background-color: #88b0ec;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.da_course-button-true{
+  background-color: #3E59B8
+}
+
+.da_courses {
+  background: #F7F7F7;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.da_course-detail {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: -1%;
+  text-decoration: none;
+}
+
+.da_course-cover_u {
+  background: #FF7F50;
+  width: 10px;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0%;
+  font-size: 20px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  /* padding: 10px; */
+}
+
+.da_course-detail {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: -1%;
+  margin-left: 5%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.da_title {
+  color: black;
+  font-size: 0.9em;
+  margin-top: 0%;
+  text-decoration: none;
+}
+
+.da_assignment {
+  font-size: 12px;
+  color: #1E6DE4;
+  text-decoration: none;
+}
+
+.da_student {
+  font-size: 0.8em;
+  margin-right: 3%;
+  color: #6D6D6D;
+}

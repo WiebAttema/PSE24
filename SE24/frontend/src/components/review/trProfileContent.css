@@ -1,0 +1,73 @@
+.trprofile{
+    flex:1;
+    background-color:#eff3ff;
+    height:100vh;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+
+h7 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color:#3E59B8;
+}
+
+input[type='checkbox'] {
+    margin-left: 10px;
+}
+
+textarea {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    resize: vertical; /* Zorgt ervoor dat het tekstvak verticaal kan worden uitgerekt */
+    background-color: whit;
+    border:none;
+    
+}
+.simple-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 4px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #3E59B8; 
+    color:#3E59B8;
+}
+
+.simple-button.clicked {
+    background-color: #3E59B8;
+    color: white;
+}
+.review {
+    display: flex;
+    align-items: center; /* Verticaal centreren van items */
+    gap: 10px; 
+}
+.mid-content{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 15%; */
+    margin-top: 30px;
+    /* gap: 35px; */
+    gap: 20px;
+}
+.icon2{
+    margin-top:1px;
+}
+
+.feedback-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 4px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #3E59B8; 
+    color:#3E59B8;
+}

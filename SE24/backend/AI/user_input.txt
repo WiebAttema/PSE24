@@ -1,0 +1,2 @@
+User wants to generate one |@difficulty| difficulty |@question_type| question using the information:
+"|@information|" making use of the programming language |@language|.

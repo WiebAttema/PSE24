@@ -1,0 +1,108 @@
+/* src/components/NavBar.css */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  width: 80px;
+  transition: width 0.3s;
+  background: linear-gradient(120deg, var(--gradient-light), var(--gradient-dark));
+
+  color: white;
+  height: calc(100vh - 60px);
+  border-radius: 0px 20px 20px 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar:hover {
+  width: 300px;
+}
+
+.navbar:hover .nav-text {
+  display: block;
+}
+
+.logo-section {
+  padding-left: 20px;
+}
+
+
+.logo-section {
+  margin-bottom: 60px;
+}
+.Feedback{
+  /* font-size: 2em;
+  color:#3E59B8;
+  font-weight: 600; */
+  font-size: 22px;
+  color: #3E59B8;
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-active{
+  background-color: #4E66B5;
+  border-radius: 10px;
+}
+
+.nav-section {
+  padding: 0px;
+  list-style: none;
+
+}
+
+.nav-item {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar:hover .nav-item {
+  display: block;
+}
+
+.nav-link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-item:hover{
+  background-color: #4E66B5;
+  border-radius: 10px;
+}
+
+.icon {
+  color: white;
+  font-size: 30px;
+}
+
+.logout-icon {
+  padding: 30px;
+}
+
+.logout-item {
+  display: inline-block;
+}
+
+.logout-item:hover {
+  background-color: #4E66B5;
+  cursor: pointer;
+}
+
+.nav-text {
+  margin-left: 20px;
+  color: white;
+  display: none;
+}

@@ -1,0 +1,31 @@
+Code:
+```python
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+def add_left_child(parent, child_value):
+    parent.left = TreeNode(child_value)
+
+def add_right_child(parent, child_value):
+    parent.right = TreeNode(child_value)
+
+root = TreeNode(10)
+add_left_child(root, 5)
+add_right_child(root, 15)
+```
+
+Question:
+The `add_left_child` function adds a right child to the given parent node.
+
+Choices:
+True
+False
+
+Answer:
+False
+
+Explanation:
+The provided code defines a simple binary tree structure in Python using a `TreeNode` class. Each `TreeNode` has a value and possibly two children: left and right. The `add_left_child` function is designed to add a left child to a given parent node by creating a new `TreeNode` with the specified `child_value` and assigning it to the parent's `left` attribute. Similarly, the `add_right_child` function adds a right child to the parent node. In the code sample, a root node is created with a value of 10, then a left child with value 5, and a right child with value 15 are added to this root node. The statement in the question is false because `add_left_child` actually adds a left child, not a right child.

@@ -1,0 +1,54 @@
+/* asProfileContent*/
+
+.time-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 10px;
+    color:#1D6DE4;
+    margin-top: 10%;
+}
+
+.time-part {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.time-label {
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.tijd{
+    color: #3E59B8 !important;
+}
+.question-boxs {
+    margin-top: 20px;
+}
+
+.question-indicators {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Automatisch passend maken */
+    justify-content: center;
+    gap: 10px; /* Ruimte tussen de items */
+    margin-top: 10%;
+}
+
+.question-indicator {
+    width: 25px; /* Vaste breedte */
+    height: 25px; /* Vaste hoogte */
+    background-color: white;
+    border-radius: 20%; /* Afgeronde hoeken */
+    margin: 0 5px; /* Ruimte tussen de elementen */
+    border: 5px solid white; /* Randstijl */
+}
+
+.question-indicator.completed {
+    background: #1D6DE4;
+
+}
+
